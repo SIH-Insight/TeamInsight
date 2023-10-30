@@ -74,7 +74,8 @@ We would like to express our gratitude to the following collaborators who have c
 2. [**Pavithran M**](https://github.com/atPavithran)
 3. [**Chandani Parachuri**](https://github.com/Chandani122)
 4. [**Keshav M**](https://github.com/WhiteDevil0812)
-
+5. [**Allen Joseph N**](https://github.com/terfefed)
+6. [**V R Rithika**](https://github.com/vrrithika)
 
 
 We are excited to share our innovative solution with the Smart India Hackathon community and look forward to making our railway stations safer and more efficient. Thank you for your support!
