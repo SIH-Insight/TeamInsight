@@ -1,6 +1,6 @@
 # Smart India Hackathon Project - Team Insight 
 <p align="center">
-  <img src="logo.png" alt="Logo" width=300 height=300 /></p>
+  <img src="Logo2.jpg" alt="Logo" width=300 height=300 /></p>
   
 ## Project Overview
 
