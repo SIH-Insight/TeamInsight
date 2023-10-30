@@ -37,7 +37,7 @@ Our solution is built on a robust technology stack, including:
 - **Collaborative Tools**:
   - GitHub: Utilized for version control and collaboration.
 
-##TO-DO List 
+## TO-DO List 
 
 -[] Azure Machine Learning
 -[]Docker
