@@ -6,6 +6,7 @@ import math
 from src.crime import crime
 from src.crowd import crowd_management as cm
 from src.garbage import garbage 
+from src.work import work
 # Define a custom CSS class for bold and italic text
 st.set_page_config(page_title='Smart CCTV', page_icon=':camera:')
 header_style = """
@@ -71,6 +72,16 @@ if selected_action == "Work Monitoring":
     
     # Add a file uploader widget
     uploaded_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mov"])
+    if uploaded_file is not None:
+        with st.spinner('Loading....'):
+            video_bytes = uploaded_file.read()
+            df = work.work_management(video_bytes)
+            df['human_count'] = df['human_count'].apply(lambda x: math.ceil(x))
+            st.title('Work Monitoring')
+            st.bar_chart(df.set_index('timestamp'))
+            
+            time.sleep(5)
+        st.success('Done!')
 
 elif selected_action == "Crime Detection":
     st.sidebar.markdown("<p class='italic-text'>Proactively detect criminal activity and enhance public safety.</p>", unsafe_allow_html=True)
