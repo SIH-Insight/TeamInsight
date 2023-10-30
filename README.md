@@ -1,5 +1,7 @@
 # Smart India Hackathon Project - Team Insight 
-
+<p align="center">
+  <img src="logo.png" alt="Logo" />
+</p>
 ## Project Overview
 
 Welcome to the README for our Smart India Hackathon project! Our project focuses on enhancing the security and efficiency of railway stations using CCTV surveillance. We have developed a comprehensive solution that leverages computer vision, machine learning, and web technologies to address four key areas:
