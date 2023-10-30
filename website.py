@@ -77,6 +77,7 @@ if selected_action == "Work Monitoring":
             video_bytes = uploaded_file.read()
             df = work.work_management(video_bytes)
             df['human_count'] = df['human_count'].apply(lambda x: math.ceil(x))
+            df['timestamp'] = df['timestamp'].apply(lambda x: x.round(5))
             st.title('Work Monitoring')
             st.bar_chart(df.set_index('timestamp'))
             
@@ -94,7 +95,6 @@ elif selected_action == "Crime Detection":
         
         with st.spinner('Loading....'):
             video_bytes = uploaded_file.read()
-            file_content=r'C:\Users\Girish\.vscode\programs\new_sih\src\crime'
             predicted_video = crime.predict_frames(video_bytes, 16)
             a,b=crime.predict_video(video_bytes, 16)
             st.write("Predicted: ",a)
