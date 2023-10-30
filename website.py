@@ -80,6 +80,7 @@ elif selected_action == "Crime Detection":
     uploaded_file = st.file_uploader("Upload a video file", type=["mp4", "avi", "mov"])
 
     if uploaded_file is not None:
+        
         with st.spinner('Loading....'):
             video_bytes = uploaded_file.read()
             file_content=r'C:\Users\Girish\.vscode\programs\new_sih\src\crime'
@@ -116,6 +117,8 @@ elif selected_action == "Garbage Detection":
     uploaded_file = st.file_uploader("Upload a video file for garbage detection", type=["jpeg", "png", "jpg"])
     
     if uploaded_file is not None:
+        image = Image.open(uploaded_file)
+        st.image(image, caption='Uploaded Image', use_column_width=True)
         with st.spinner('Loading....'):
             image = Image.open(io.BytesIO(uploaded_file.read()))
             prediction=garbage.classify_garbage(image)

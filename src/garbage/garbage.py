@@ -18,6 +18,7 @@ def classify_garbage(image):
   pred = np.argmax(predictions)
 
   confidence = predictions[0][pred]
+  
 
   if confidence > 0.5:
     return "Not Garbage"

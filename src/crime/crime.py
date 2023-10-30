@@ -72,7 +72,7 @@ def create_dataset(video_file_path):
 
 
 def predict_frames(video_bytes, SEQUENCE_LENGTH):
-    MoBiLSTM_model = keras.models.load_model(r'src/garbage/garbage_classification_model.h5')
+    MoBiLSTM_model = keras.models.load_model(r'src/crime/Crime_prevent_model.h5')
 
     with tempfile.NamedTemporaryFile(delete=False) as temp_file:
         temp_file.write(video_bytes)  
@@ -155,7 +155,7 @@ def show_pred_frames(pred_video_path):
     plt.show()
 
 def predict_video(video_bytes, SEQUENCE_LENGTH):
-    MoBiLSTM_model = keras.models.load_model(r'src/garbage/garbage_classification_model.h5')
+    MoBiLSTM_model = keras.models.load_model(r'src/crime/Crime_prevent_model.h5')
     # Use cv2.VideoCapture on the numpy array
     with tempfile.NamedTemporaryFile(delete=False) as temp_file:
         temp_file.write(video_bytes)  
