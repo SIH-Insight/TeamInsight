@@ -37,12 +37,12 @@ Our solution is built on a robust technology stack, including:
 - **Collaborative Tools**:
   - GitHub: Utilized for version control and collaboration.
 
-## TO-DO List 
+## TO-DO List
 
-- [] Azure Machine Learning
-- [] Docker
-- [] MongoDB
-- [] Flutter
+- [ ] Azure Machine Learning
+- [ ] Docker
+- [ ] MongoDB
+- [ ] Flutter
 
 This format provides a clear and structured overview of the technology stack you've used and your plans for future implementation.
 
