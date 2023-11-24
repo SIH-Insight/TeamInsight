@@ -1,5 +1,7 @@
 # Smart India Hackathon Project - Team Insight 
-
+<p align="center">
+  <img src="Logo2.jpg" alt="Logo" width=300 height=300 /></p>
+  
 ## Project Overview
 
 Welcome to the README for our Smart India Hackathon project! Our project focuses on enhancing the security and efficiency of railway stations using CCTV surveillance. We have developed a comprehensive solution that leverages computer vision, machine learning, and web technologies to address four key areas:
@@ -37,14 +39,13 @@ Our solution is built on a robust technology stack, including:
 - **Collaborative Tools**:
   - GitHub: Utilized for version control and collaboration.
 
-**Yet to Be Implemented**:
+## TO-DO List
 
-- Azure Machine Learning
-- Docker
-- MongoDB
-- Flutter
+- [ ] Azure Machine Learning
+- [ ] Docker
+- [ ] MongoDB
+- [ ] Flutter
 
-This format provides a clear and structured overview of the technology stack you've used and your plans for future implementation.
 
 ## Getting Started
 
@@ -74,7 +75,10 @@ We would like to express our gratitude to the following collaborators who have c
 2. [**Pavithran M**](https://github.com/atPavithran)
 3. [**Chandani Parachuri**](https://github.com/Chandani122)
 4. [**Keshav M**](https://github.com/WhiteDevil0812)
-
+5. [**Allen Joseph N**](https://github.com/terfefed)
+6. [**V R Rithika**](https://github.com/vrrithika)
 
 
 We are excited to share our innovative solution with the Smart India Hackathon community and look forward to making our railway stations safer and more efficient. Thank you for your support!
+
+
