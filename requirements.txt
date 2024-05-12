@@ -3,7 +3,6 @@ matplotlib==3.7.2
 numpy==1.24.3
 opencv_python==4.8.0.76
 pandas==2.0.3
-Pillow==10.0.0
 Pillow==10.1.0
 streamlit==1.28.1
 tensorflow==2.14.0
